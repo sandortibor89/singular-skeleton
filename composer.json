@@ -1,0 +1,31 @@
+{
+    "name": "sandortibor89/singular-skeleton",
+    "description": "Micro PHP Framework",
+    "keywords": [
+        "framework",
+        "micro",
+        "api",
+        "router",
+        "php",
+        "mvc"
+    ],
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "sandortibor89/singular": "dev-master"
+    },
+    "authors": [
+        {
+            "name":"Tibor Sándor",
+            "email":"munka@sandortibor.hu",
+            "homepage":"http://www.sandortibor.hu",
+            "role":"Developer"
+        }
+    ],
+    "scripts": {
+        "start": [
+            "Composer\\Config::disableProcessTimeout",
+            "php -S localhost:8080 -t public"
+        ]
+    }
+}
